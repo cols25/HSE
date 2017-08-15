@@ -1,0 +1,147 @@
+body {
+}
+
+h1 {
+    text-align:center;
+}
+
+p {
+	text-align:center;
+}
+
+#main {
+	float:left;
+}
+
+.sub {
+	float:left;
+	clear:both;
+	margin:20px 0 10px 50px;
+	padding:10px;
+	border:1px solid black;
+	width:auto;
+}
+
+.clientInfo {
+	float:left;
+	clear:both; 
+	margin:5px 0 5px 0;
+}
+
+.analyst {
+	float:left;
+	margin-right: 20px;
+}
+
+.label {
+	float:left;
+	width:190px;
+}
+
+.entity {
+	padding-left: 50px;
+	float:left;
+	width:495px;
+}
+
+.field {
+	float:left;
+}
+
+/*	#submit {
+//		clear:both;
+//		margin-left:50px;
+//	}*/
+
+.btn {
+	margin-left:10px;
+}
+
+.subEntity {
+	float:left;
+	clear:both;
+	margin-bottom:10px;
+}
+
+#addClient {
+	display:none;
+}
+
+.btnAddClient {
+	float:left;
+	clear:both;
+	margin:10px 0 0 190px;
+}
+
+.sampleInfo {
+	float: left;
+	clear: both;
+	border-bottom: 1px solid black;
+	padding: 20px 0 13px 0;
+}
+
+.sampleDetails {
+	float:left;
+	clear:both;
+	margin:5px 0 5px 0;
+}
+
+.sampleEntity {
+	clear:both;
+	padding-left: 50px;
+}
+
+#border {
+	border-bottom:1px solid black;
+	padding-bottom: 8px;
+}
+
+.fibreDetails {
+	float:left;
+	clear:both;
+	margin:5px 0 5px 0;
+	width: 100%;
+}
+
+#fibreHeader {
+	text-align:center;
+	border-bottom:1px solid black;
+	padding-bottom:5px;
+	margin:0px;
+}
+/*-------------------- Start of checkboxes style -----------------*/
+
+.multiselect {
+  width: 200px;
+}
+
+.selectBox {
+  position: relative;
+}
+
+.selectBox select {
+  width: 100%;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#checkboxes {
+  display: none;
+  border: 1px #dadada solid;
+}
+
+#checkboxes label {
+  display: block;
+}
+
+#checkboxes label:hover {
+  background-color: #1e90ff;
+}
+
+/*-------------------- End of checkboxes style -----------------*/
